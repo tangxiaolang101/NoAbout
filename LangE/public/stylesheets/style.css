@@ -158,7 +158,7 @@ a:hover{
 	left: 0;
 	right: 0
 }
-@media only screen and (min-width: 42.66667rem) {
+@media only screen and (min-width: 49.88888rem) {
 	.mob-header {
 		height: 3.55556rem
 	}
@@ -231,7 +231,19 @@ a:hover{
 		width: 1px !important
 	}
 }
-
+@media only screen and (min-width: 895.5px) {
+	.accessibility--desk,
+	.visuallyhidden--desk {
+		border: 0 !important;
+		clip: rect(0 0 0 0) !important;
+		height: 1px !important;
+		margin: -1px !important;
+		overflow: hidden !important;
+		padding: 0 !important;
+		position: absolute !important;
+		width: 1px !important
+	}
+}
 
 @media only screen and (min-width: 1024px) {
 	.accessibility--desk,
@@ -281,7 +293,7 @@ a:hover{
 	}
 }
 
-@media only screen and (min-width: 42.66667rem) {
+@media only screen and (min-width: 49.88888rem) {/*42.66667*/
 	.main-navigation__button {
 		margin-right: 0;
 		width: 80px;
@@ -366,7 +378,7 @@ a:hover{
 	text-align: center;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.25)
 }
-@media only screen and (min-width: 42.66667rem) {
+@media only screen and (min-width: 49.88888rem) {
 	.header-img {
 		min-height: 14.22222rem
 	}	
@@ -448,7 +460,7 @@ strong {
 	}
 }
 
-@media only screen and (min-width: 42.66667rem) {
+@media only screen and (min-width: 49.8888rem) {
 	.container {
 		margin: 1.33333rem auto;
 		width: 83.333333333%
